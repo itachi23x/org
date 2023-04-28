@@ -1,0 +1,22 @@
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;/* Si no cabe en el ancho de la pantalla lo baja */
+    gap: 20px; /* Espacio entre columnas  */
+}
+
+.formulario form{
+    /*max-width: 80%; esto lo estoy quitando para usar el flex: 1; */
+    background-color: #f7f7f7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+    border-radius: 20px;
+    padding: 8px 100px;
+    flex: 1; /* Esto indica que vas a tener un espacio del 50% entre los 2 formularios le da armonia y equidad  */
+}
+
+.fomulario h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+}

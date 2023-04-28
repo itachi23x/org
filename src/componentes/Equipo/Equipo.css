@@ -1,0 +1,30 @@
+.equipo{
+    width: 100%;
+    padding: 32px; /*  Desacomoda las medidas  */
+    box-sizing: border-box; /*Cuando trabajemos con paddings y borders lo que queremos es que respeten el 100% de width y no se salga de alli     */
+    text-align: center;
+    font-size: 32px;
+    position: relative; /* Añadimos esto para el INPUT COLOR  */
+}   
+
+.input-color{ /* Agregamos esto para el INPUT COLOR   */
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block; /*  Solo ocupa el tamaño del texto del titulo osea es pequeño  */
+    padding-bottom: 8px; /* se separa el subrayado del titulo un poco dando un respiro */
+
+}
+
+.colaboradores{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
